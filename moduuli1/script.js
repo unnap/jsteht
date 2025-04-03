@@ -66,7 +66,7 @@ function t5(){
   if((vuosi%4===0 && vuosi%100!==0) || (vuosi%4===0 && vuosi%400===0)) {
     tulosteet.innerHTML = vuosi + ' on karkausvuosi.';
   } else {
-    tulosteet.innerHTML = vuosi + ' ei ole karkausvuosi';
+    tulosteet.innerHTML = vuosi + ' ei ole karkausvuosi.';
   }
 }
 

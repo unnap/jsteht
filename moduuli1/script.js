@@ -79,12 +79,12 @@ function t6() {
     const num = parseInt(prompt('Anna numero'));
     if(num>=0) {
       tulosteet.innerHTML = 'Numeron ' + num + ' neliöjuuri on ' +
-          Math.sqrt(num);
+          Math.sqrt(num)+'.';
     } else {
       tulosteet.innerHTML = 'Negatiivisen luvun neliöjuurta ei voi määritellä.';
     }
   } else {
-    tulosteet.innerHTML = 'Neliöjuurta ei laskettu';
+    tulosteet.innerHTML = 'Neliöjuurta ei laskettu.';
   }
 }
 

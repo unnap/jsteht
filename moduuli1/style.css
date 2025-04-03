@@ -1,0 +1,51 @@
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.tehtavat {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    padding-right: 20px;
+}
+
+#tehtavat{
+    display: flex;
+}
+
+#tulosteet {
+    margin-top: 0px;
+    width: 40%;
+    height: 500px;
+    padding-left: 30px;
+    border: 1px solid #000;
+    font-family: "Lucida Console";
+}
+
+.loota {
+    margin: auto;
+}
+
+#pocha {
+    display: flex;
+    justify-content: right;
+}
+
+button {
+    background-color: #fff;
+    border: 2px solid #000;
+    height: 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #d3edfc;
+}
+
+button:active {
+    background-color: #f5bbd2;
+    border-color: #fff;
+    color: #fff;
+}

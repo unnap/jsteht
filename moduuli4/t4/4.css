@@ -1,0 +1,11 @@
+article{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+img {
+    align-self: start;
+}
+p {
+    width: 50%;
+}
